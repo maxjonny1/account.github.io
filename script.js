@@ -21,7 +21,7 @@ function toggleReveal($hideElement, $showElement){
           }, 3400);
           setTimeout(function(){
             alert("No payment detected please check payment and try again!");
-            $('button').parent().removeClass('active');
+            $('button').parent().removeClass('failed');
             $('button').removeClass('failed');
           }, 4200);
         });
